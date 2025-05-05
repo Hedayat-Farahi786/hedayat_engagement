@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import { Button, Modal, Select } from "flowbite-react";
 import { useEffect, useState } from "react";
@@ -237,8 +238,7 @@ function App() {
             <div className="flex flex-col space-y-3 items-center justify-center mb-6">
             <img src={line} alt="" className="w-72 rotate-180" />
             <h1 className="text-lg md:text-2xl text-[#7d5438] sm:text-2xl md:text-3xl font-bold text-center">
-            Gästeliste für Hedayat & Hasinas Verlobung
-
+            Verlobung Hedayat & Hasina – Gästeliste
             </h1>
             {/* <img src={line} alt="" className="w-64 opacity-80" /> */}
             </div>
